@@ -6,7 +6,9 @@
 	"license": "MIT",
 	"repository": "github:Batterii/eslint-config-vurvey-react",
 	"files": [
-		"index.js"
+		"base.js",
+		"index.js",
+		"test.js"
 	],
 	"scripts": {
 		"lint": "eslint .",
