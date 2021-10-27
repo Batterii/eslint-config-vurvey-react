@@ -3,7 +3,7 @@ module.exports = {
 		browser: true,
 	},
 	extends: [
-		"@batterii/eslint-config-vurvey",
+		"@batterii/eslint-config-vurvey/base",
 		"plugin:react/recommended",
 	],
 	overrides: [{
