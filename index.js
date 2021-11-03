@@ -40,7 +40,7 @@ module.exports = {
 				leadingUnderscore: "require",
 			},
 			{
-				selector: ["typeLike", "enumMember"],
+				selector: "typeLike",
 				format: ["PascalCase"],
 			},
 			{
@@ -51,6 +51,10 @@ module.exports = {
 				selector: "variable",
 				modifiers: ["const"],
 				format: ["camelCase", "PascalCase", "UPPER_CASE"],
+			},
+			{
+				selector: "enumMember",
+				format: ["PascalCase", "UPPER_CASE"],
 			},
 			/* eslint-enable sort-keys */
 		],
