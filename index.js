@@ -48,8 +48,9 @@ module.exports = {
 				format: ["PascalCase"],
 			},
 			{
-				selector: "const",
-				format: ["UPPER_CASE"],
+				selector: "variable",
+				modifiers: ["const"],
+				format: ["camelCase", "PascalCase", "UPPER_CASE"],
 			},
 			/* eslint-enable sort-keys */
 		],
