@@ -47,34 +47,3 @@ Enforces the Rules of Hooks—that hooks are only called at the top level of a f
 Enforces consistent naming of boolean props. By default, boolean props should be prefixed with `is`, `has`, or similar prefixes (e.g., `isEnabled`, `hasError`) to clearly indicate they're boolean values.
 
 [📖 Rule Documentation](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md)
-
----
-
-## TypeScript Rules
-
-### `@typescript-eslint/naming-convention`
-
-**Setting:** Complex configuration with multiple selectors
-
-Enforces naming conventions across various TypeScript constructs. The configuration specifies:
-
-| Selector        | Modifiers   | Allowed Formats                         | Leading Underscore |
-| --------------- | ----------- | --------------------------------------- | ------------------ |
-| `default`       | —           | `camelCase`, `PascalCase`               | —                  |
-| `parameter`     | —           | `camelCase`, `PascalCase`               | allowed            |
-| `memberLike`    | `private`   | `camelCase`                             | required           |
-| `memberLike`    | `protected` | `camelCase`                             | required           |
-| `typeLike`      | —           | `PascalCase`                            | —                  |
-| `typeParameter` | —           | `PascalCase`                            | —                  |
-| `variable`      | `const`     | `camelCase`, `PascalCase`, `UPPER_CASE` | —                  |
-| `enumMember`    | —           | `PascalCase`, `UPPER_CASE`              | —                  |
-
-**Key points:**
-
-- Default naming allows camelCase or PascalCase
-- Private and protected class members must start with an underscore
-- Types, interfaces, and type parameters must be PascalCase
-- Const variables can also be UPPER_CASE (for constants)
-- Enum members can be PascalCase or UPPER_CASE
-
-[📖 Rule Documentation](https://typescript-eslint.io/rules/naming-convention/)
