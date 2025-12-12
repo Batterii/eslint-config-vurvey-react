@@ -49,52 +49,7 @@ export default defineConfig([
 					variables: false, //allows variables assigned to functions to be used 'before' their declaration
 				},
 			],
-			"@typescript-eslint/naming-convention": [
-				"error",
-				{
-					selector: "default",
-					format: ["camelCase", "PascalCase"],
-				},
-				{
-					selector: "parameter",
-					format: ["camelCase", "PascalCase"],
-					leadingUnderscore: "allowSingleOrDouble",
-				},
-				{
-					selector: "property",
-					format: ["camelCase", "PascalCase"],
-					leadingUnderscore: "allowSingleOrDouble",
-				},
-				{
-					selector: "memberLike",
-					modifiers: ["private"],
-					format: ["camelCase"],
-					leadingUnderscore: "allowSingleOrDouble",
-				},
-				{
-					selector: "memberLike",
-					modifiers: ["protected"],
-					format: ["camelCase"],
-					leadingUnderscore: "allowSingleOrDouble",
-				},
-				{
-					selector: "typeLike",
-					format: ["PascalCase"],
-				},
-				{
-					selector: "typeParameter",
-					format: ["PascalCase"],
-				},
-				{
-					selector: "variable",
-					modifiers: ["const"],
-					format: ["camelCase", "PascalCase", "UPPER_CASE"],
-				},
-				{
-					selector: "enumMember",
-					format: ["PascalCase", "UPPER_CASE"],
-				},
-			],
+			"@typescript-eslint/naming-convention": "off",
 		},
 	},
 	eslintPluginPrettierRecommended,
