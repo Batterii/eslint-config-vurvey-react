@@ -58,24 +58,24 @@ export default defineConfig([
 				{
 					selector: "parameter",
 					format: ["camelCase", "PascalCase"],
-					leadingUnderscore: "allow",
+					leadingUnderscore: "allowSingleOrDouble",
 				},
 				{
 					selector: "property",
 					format: ["camelCase", "PascalCase"],
-					leadingUnderscore: "allow",
+					leadingUnderscore: "allowSingleOrDouble",
 				},
 				{
 					selector: "memberLike",
 					modifiers: ["private"],
 					format: ["camelCase"],
-					leadingUnderscore: "require",
+					leadingUnderscore: "allowSingleOrDouble",
 				},
 				{
 					selector: "memberLike",
 					modifiers: ["protected"],
 					format: ["camelCase"],
-					leadingUnderscore: "require",
+					leadingUnderscore: "allowSingleOrDouble",
 				},
 				{
 					selector: "typeLike",
