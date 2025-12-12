@@ -61,6 +61,11 @@ export default defineConfig([
 					leadingUnderscore: "allow",
 				},
 				{
+					selector: "property",
+					format: ["camelCase", "PascalCase"],
+					leadingUnderscore: "allow",
+				},
+				{
 					selector: "memberLike",
 					modifiers: ["private"],
 					format: ["camelCase"],
