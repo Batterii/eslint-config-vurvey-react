@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"repository": "github:Batterii/eslint-config-vurvey-react",
 	"files": [
-		"index.mjs"
+		"config/",
+		"oxlint/"
 	],
 	"exports": {
 		".": "./config/index.mjs",
@@ -18,14 +19,12 @@
 		"preversion": "npm run lint",
 		"prepublishOnly": "git push && git push --tags"
 	},
-	"peerDependencies": {
-		"eslint": "^9.39.1"
-	},
 	"optionalDependencies": {
 		"oxlint": "^1.31.0",
 		"oxlint-tsgolint": "^0.8.3"
 	},
 	"dependencies": {
+		"eslint": "^9.39.1",
 		"@batterii/eslint-config-vurvey": "^1.0.1",
 		"@eslint/js": "^9.39.1",
 		"@stylistic/eslint-plugin": "^5.6.1",
