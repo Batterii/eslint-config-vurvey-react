@@ -1,6 +1,6 @@
 {
 	"name": "@batterii/eslint-config-vurvey-react",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "ESLint configuration for Vurvey React projects",
 	"author": "Batterii, LLC",
 	"license": "MIT",
