@@ -8,6 +8,8 @@ This document explains the rules explicitly declared in the ESLint configuration
 
 ### `multiline-ternary`
 
+NOTE: This was moved to the base config in https://github.com/Batterii/eslint-config-vurvey
+
 **Setting:** `["error", "always-multiline"]`
 
 Enforces newlines between operands of ternary expressions when the expression spans multiple lines. With `always-multiline`, if the ternary is on a single line it's fine, but if any part is on a new line, all parts must be on separate lines.

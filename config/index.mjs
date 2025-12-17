@@ -4,7 +4,6 @@ import reactHooks from "eslint-plugin-react-hooks";
 import batteriiConfig from "@batterii/eslint-config-vurvey";
 import globals from "globals";
 import reactRefresh from "eslint-plugin-react-refresh";
-import stylistic from "@stylistic/eslint-plugin";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 export { batteriiConfig };
 
@@ -24,12 +23,8 @@ export default defineConfig([
 				version: "detect",
 			},
 		},
-		plugins: {
-			"@stylistic": stylistic,
-		},
 		rules: {
 			//JS Rules
-			"@stylistic/multiline-ternary": ["error", "always-multiline"],
 			"no-nested-ternary": "off",
 			//React Rules
 			"react-hooks/rules-of-hooks": "error",
