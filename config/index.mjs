@@ -47,5 +47,11 @@ export default defineConfig([
 			"@typescript-eslint/naming-convention": "off",
 		},
 	},
+	{
+		files: ["**/*.tsx"],
+		rules: {
+			"@typescript-eslint/no-misused-promises": "off",
+		},
+	},
 	eslintPluginPrettierRecommended,
 ]);
