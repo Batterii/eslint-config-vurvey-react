@@ -1,8 +1,5 @@
 {
 	"$schema": "../node_modules/oxlint/configuration_schema.json",
-	"extends": [
-		"../node_modules/@batterii/eslint-config-vurvey/oxlint/.oxlintrc.json"
-	],
 	"plugins": ["react"],
 	"categories": {
 		"correctness": "off"
